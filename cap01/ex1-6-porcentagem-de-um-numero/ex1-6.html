@@ -1,0 +1,8 @@
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<script>
+    const numero = Number(prompt("valor da conta: R$"));
+    const calculoComissao = Number((10 * numero) / 100);
+    alert("comissão do garçom é: R$" + calculoComissao.toFixed(2));
+    const totalConta = Number(numero + calculoComissao);
+    alert("total a pagar: R$" + totalConta.toFixed(2));//toFixer(2) indica a qtd de casas decimais
+</script>

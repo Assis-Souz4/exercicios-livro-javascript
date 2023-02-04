@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros JS</title>
+    <link rel="stylesheet" href="./ex2-2b-style.css">
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Revenda de Veiculos JS</h1>
+        <form action="revendaVeiculos">
+            <label for="veiculo">Nome do Veiculo:</label>
+            <input type="text" id="veiculo" required><!--1-->
+
+            <label for="preco">Preço (R$):</label>
+            <input type="number" id="preco" required><!--2-->
+
+            <input type="button" value="Ver Promoção" id="verPromo"><!--3-->
+        </form>
+    </div>
+    <div class="mostrarVeiculo"></div><!--4-->
+    <div class="mostrarEntrada"></div><!--5-->
+    <div class="mostrarParcelas"></div><!--6-->
+
+    <script src="./ex2-2b-script.js"></script>
+</body>
+</html>
